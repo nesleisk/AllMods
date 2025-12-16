@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>All My Mods — Вики</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,600&display=swap" />
+  <style>
+    body { font-family: "Raleway", sans-serif; }
+    ::selection { background:#ffeb3b; color:#000; }
+    ::-moz-selection { background:#ffeb3b; color:#000; }
+    .w3-button { transition: all .2s ease; }
+    .w3-button:hover { filter: brightness(1.05); box-shadow:0 4px 10px rgba(0,0,0,.12); }
+
+    .toc a { text-decoration:none; }
+    .section-card img.preview { width: 100%; height: 220px; object-fit: contain; background:#fff; }
+
+    .recipe, .tip { border-left: 4px solid #4caf50; background:#f7fff8; padding:12px; margin:8px 0; }
+    .tip { border-color:#2196f3; background:#f7fbff; }
+
+    .grid-3 { display:grid; grid-template-columns: repeat(3, 1fr); gap:6px; }
+    .cell { border:1px dashed #ccc; min-height:40px; display:flex; align-items:center; justify-content:center; font-size:12px; color:#666; background:#fff; }
+    .kbd { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; padding:2px 6px; border-radius:4px; background:#eee; }
+  </style>
+</head>
+<body class="w3-light-grey">
+
+  <!-- Top navigation -->
+  <div class="w3-top w3-white w3-card">
+    <div class="w3-bar w3-white w3-wide w3-padding">
+      <a href="index.html" class="w3-bar-item w3-button">All My Mods</a>
+      <div class="w3-right w3-hide-small">
+        <a href="wiki.html" class="w3-bar-item w3-button w3-black w3-text-white">Вики</a>
+        <a href="changelog.html" class="w3-bar-item w3-button">Changelog</a>
+        <a href="https://www.donationalerts.com/r/mjem4ik" class="w3-bar-item w3-button w3-orange" target="_blank" rel="noopener">Поддержать</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="w3-container w3-center" style="padding:96px 16px 32px 16px">
+    <h1 class="w3-xxlarge"><b>Вики — рецепты и гайды</b></h1>
+    <p class="w3-text-grey">Выберите мод в оглавлении ниже, чтобы перейти к рецептам, гайдам и заметкам.</p>
+  </header>
+
+  <div class="w3-content" style="max-width:1100px">
+
+    <!-- TOC -->
+    <div class="w3-card w3-white w3-padding toc w3-margin-bottom">
+      <h3 class="w3-margin-top">Оглавление</h3>
+      <div class="w3-row-padding">
+        <div class="w3-col l6 s12">
+          <ul class="w3-ul w3-hoverable">
+            <li><a href="#bricks">Colored Bricks</a></li>
+            <li><a href="#protein">Protein</a></li>
+            <li><a href="#soups">More Soups</a></li>
+          </ul>
+        </div>
+        <div class="w3-col l6 s12">
+          <ul class="w3-ul w3-hoverable">
+            <li><a href="#sigma">Sigma Mod</a></li>
+            <li><a href="#infested">Infested End Stone & Netherrack</a></li>
+            <li><a href="#coming-soon">Better Recipes & Trades for Superlfat</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sections -->
+
+    <!-- Bricks -->
+    <section id="bricks" class="w3-card w3-white w3-padding w3-margin-bottom section-card">
+      <h2>Colored Bricks</h2>
+      <p class="w3-text-grey">Вариации цветных кирпичей и связанных блоков.</p>
+      <div class="w3-row-padding">
+        <div class="w3-col m4 s12 w3-margin-bottom">
+          <img class="preview" src="brickmod.png" alt="Colored Bricks preview" />
+        </div>
+        <div class="w3-col m8 s12">
+          <h4>Рецепты</h4>
+          <div class="recipe">
+            <b>Окрашенный кирпич</b>
+            <div class="grid-3 w3-margin-top">
+              <div class="cell">Кирпич</div>
+              <div class="cell">Краситель</div>
+              <div class="cell"></div>
+              <div class="cell"></div>
+              <div class="cell"></div>
+              <div class="cell"></div>
+              <div class="cell"></div>
+              <div class="cell"></div>
+              <div class="cell"></div>
+            </div>
+            <div class="w3-small w3-text-grey w3-margin-top">Поместите базовый кирпич и соответствующий краситель, чтобы получить окрашенный вариант. Количество и расположение зависят от версии.</div>
+          </div>
+
+          <h4>Гайды</h4>
+          <div class="tip">
+            Используйте <span class="kbd">Shift</span> + <span class="kbd">Клик</span> для быстрого переноса стаков при массовом крафте.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Protein -->
+    <section id="protein" class="w3-card w3-white w3-padding w3-margin-bottom section-card">
+      <h2>Protein</h2>
+      <p class="w3-text-grey">Новые продукты с белком и механики питания.</p>
+      <div class="w3-row-padding">
+        <div class="w3-col m4 s12 w3-margin-bottom">
+          <img class="preview" src="proteinmod.png" alt="Protein preview" />
+        </div>
+        <div class="w3-col m8 s12">
+          <h4>Рецепты</h4>
+          <div class="recipe">
+            <b>Протеиновый батончик</b>
+            <div class="grid-3 w3-margin-top">
+              <div class="cell">Семена</div>
+              <div class="cell">Сахар</div>
+              <div class="cell">Мёд</div>
+              <div class="cell"></div>
+              <div class="cell">Белковый порошок</div>
+              <div class="cell"></div>
+              <div class="cell"></div>
+              <div class="cell"></div>
+              <div class="cell"></div>
+            </div>
+            <div class="w3-small w3-text-grey w3-margin-top">Пример схемы. Замените ингредиенты на актуальные для вашей версии мода.</div>
+          </div>
+
+          <h4>Гайды</h4>
+          <div class="tip">
+            Комбинируйте белковые блюда с эффектами регенерации для повышения выживаемости в длительных походах.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- More Soups -->
+    <section id="soups" class="w3-card w3-white w3-padding w3-margin-bottom section-card">
+      <h2>More Soups</h2>
+      <p class="w3-text-grey">Ассортимент новых супов.</p>
+      <div class="w3-row-padding">
+        <div class="w3-col m4 s12 w3-margin-bottom">
+          <img class="preview" src="moresoupsmod.png" alt="More Soups preview" />
+        </div>
+        <div class="w3-col m8 s12">
+          <h4>Рецепты</h4>
+          <div class="recipe">
+            <b>Овощной суп</b>
+            <div class="grid-3 w3-margin-top">
+              <div class="cell">Чаша</div>
+              <div class="cell">Овощ</div>
+              <div class="cell">Овощ</div>
+              <div class="cell"></div>
+              <div class="cell">Вода</div>
+              <div class="cell"></div>
+              <div class="cell"></div>
+              <div class="cell">Соль</div>
+              <div class="cell"></div>
+            </div>
+            <div class="w3-small w3-text-grey w3-margin-top">Макет крафта для примера. Уточните актуальные ингредиенты в документации мода.</div>
+          </div>
+
+          <h4>Гайды</h4>
+          <div class="tip">
+            Пользуйтесь разнообразием супов: некоторые эффективнее в биомах с холодным климатом благодаря бонусным эффектам.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sigma -->
+    <section id="sigma" class="w3-card w3-white w3-padding w3-margin-bottom section-card">
+      <h2>Sigma Mod</h2>
+      <p class="w3-text-grey">Мобы Sigma/Gigachad, предметы, экипировка и блоки.</p>
+      <div class="w3-row-padding">
+        <div class="w3-col m4 s12 w3-margin-bottom">
+          <img class="preview" src="sigma_mod.png" alt="Sigma preview" />
+        </div>
+        <div class="w3-col m8 s12">
+          <h4>Рецепты</h4>
+          <div class="recipe">
+            <b>Сигма-меч</b>
+            <div class="grid-3 w3-margin-top">
+              <div class="cell"></div>
+              <div class="cell">Сигма-слиток</div>
+              <div class="cell"></div>
+              <div class="cell"></div>
+              <div class="cell">Сигма-слиток</div>
+              <div class="cell"></div>
+              <div class="cell"></div>
+              <div class="cell">Палка</div>
+              <div class="cell"></div>
+            </div>
+            <div class="w3-small w3-text-grey w3-margin-top">Схема для примера. Замените на точные материалы/раскладку вашей версии.</div>
+          </div>
+
+          <h4>Гайды</h4>
+          <div class="tip">
+            Против элитных мобов используйте броню с повышенной стойкостью к отбрасыванию.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Infested -->
+    <section id="infested" class="w3-card w3-white w3-padding w3-margin-bottom section-card">
+      <h2>Infested End Stone & Netherrack</h2>
+      <p class="w3-text-grey">Заражённые варианты блоков Края и Незера.</p>
+      <div class="w3-row-padding">
+        <div class="w3-col m4 s12 w3-margin-bottom">
+          <img class="preview" src="infested.png" alt="Infested preview" />
+        </div>
+        <div class="w3-col m8 s12">
+          <h4>Рецепты</h4>
+          <div class="recipe">
+            <b>Очистка заражённых блоков</b>
+            <p class="w3-small w3-text-grey">Механика зависит от версии. Обычно используется плавка или взаимодействие с антидотом/чистящим средством.</p>
+          </div>
+
+          <h4>Гайды</h4>
+          <div class="tip">
+            Используйте инструменты с зачарованием «Шёлковое касание», чтобы контролировать выпадение заражённых блоков и избежать распространения.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Coming soon -->
+    <section id="coming-soon" class="w3-card w3-white w3-padding w3-margin-bottom section-card">
+      <h2>Better Recipes & Trades for Superlfat</h2>
+      <p class="w3-text-grey">В этом разделе появятся рецепты и гайды для следующего мода.</p>
+      <div class="tip">Добавьте скриншоты, список предметов, а также примеры крафтов по мере готовности.</div>
+    </section>
+
+  </div>
+
+  <footer class="w3-container w3-white w3-center w3-padding-32 w3-margin-top">
+    <a href="index.html" class="w3-button w3-black w3-padding-large w3-margin-bottom">На главную</a>
+    <a href="https://modrinth.com/" class="w3-button w3-green w3-padding-large w3-margin-bottom" target="_blank" rel="noopener">Modrinth</a>
+    <a href="https://www.donationalerts.com/r/mjem4ik" class="w3-button w3-orange w3-padding-large w3-margin-bottom" target="_blank" rel="noopener">Поддержать</a>
+    <div class="w3-small w3-text-grey">made by sm6gm1ch</div>
+  </footer>
+
+</body>
+</html>
